@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mojolicious-Plugin-EventSource
-version:            0.2
+version:            0.3
 abstract:           A plugin to make it eazy to use EventSource with Mojolicious
 author:
     - Fernando Corrêa de Oliveira <fco@cpan.org>
@@ -11,7 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Mojolicious:  2.61
+    Test::More:   0
 no_index:
     directory:
         - t
